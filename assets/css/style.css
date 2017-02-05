@@ -1,0 +1,228 @@
+body{
+	line-height: normal;
+	background-color: #ffffff;
+	margin: auto;
+	width: 960px;
+	height: 100%;
+	background-image: url(../images/seigaiha.png);
+}
+
+header{
+	background-color: #cccccc;
+}
+
+h1{
+	background-color: #5379ab;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px 10px 10px 10px;
+	margin:30px 0px 0px 5%;
+	font-family:'georgia', Times, Times New Roman, serif;
+}
+
+h2{
+	background: white;
+	color: #5379ab;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 0 7px 30px;
+	border-bottom: solid #bfb8b8 2px;
+	border-left-width: 10px;
+	margin: 20px 0 20px 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3{
+	float: right;
+	margin: 40px 10px 0px 20px;
+	padding-right: 10px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+}
+
+h4{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin: 21px 0 21px 0;
+	padding: 10px 0 0 0px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container{
+	max-width: auto;
+}
+.push{
+	clear: both;
+	height: 55px;
+}
+
+.footer{
+	background: #666666;
+	color: #bfb8b8;
+	text-align: center;
+	height: 75px;
+	border-top: solid #5379ab 4px;
+	padding-top: 20px;
+}
+
+.navbar{
+	background-color: white;
+}
+.nav1{
+	padding-top: 30px;
+	list-style-type: none;
+	font-size: 18px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+li{
+	display: inline;
+	padding-left: 10px;
+}
+
+.rtbd{
+	border-right: solid #5379ab 2px;
+	display: inline;
+}
+	
+.contain1{
+	position: absolute;
+	width: 960px;
+	background: white;
+	border-bottom: solid #bfb8b8 3px;
+}
+
+.contain2{
+	padding-bottom: 10px;
+	background: white;
+	height: auto;
+}
+
+.contain3{
+	width: 270px;
+	height: 162px;
+	background: white;
+}
+
+.contain3a{
+	top: 0px;
+	right:35px;
+	margin: 0px 0px 0 30px;
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	background: white;
+	color: #5379ab;
+	border-bottom: solid #bfb8b8 2px;
+}
+
+.contain3b{
+	padding: 5px 0 0 0;  
+	width: 200px;
+	background: white;
+}
+
+.about{
+	width: 650px;
+}
+
+.about_image{
+	float: left;
+	margin: 0 10px 10px 0;
+	padding-left: 20px;
+}
+
+.link{
+	color: #bfb8b8;
+	text-decoration: none;
+	margin-right: 10px;
+	padding-right: 2px;
+}
+.social{
+	color: white;
+}
+
+form{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #bfb8b8;
+	font-weight: bold;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 5px 5px;
+    margin: 8px 0 0 8px;
+    box-sizing: border-box;
+    color: #bfb8b8;
+}
+
+textarea {
+    width: 90%;
+    height: 130px;
+    padding: 12px 20px;
+    margin: 8px 0 0 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #bfb8b8;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #5379ab;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px 0 8px;
+    cursor: pointer;
+}
+
+.Pimg {
+	margin: 5px 0 5px 50px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+.Pimg:hover {
+    border: 1px solid #777;
+}
+
+.Pimg img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+	background: #5379ab;
+	position: absolute;
+	padding: 10px 6px 10px 0px;
+	width: 180px;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    margin: -46px 0 0 -16px;
+}
+
+.portfolioBox{
+	background-color: white;
+}
+
+@media only screen and (max-width: 980px) {	
+}
+
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 640px){
+	
+}
